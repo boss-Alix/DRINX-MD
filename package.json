@@ -1,13 +1,13 @@
 {
+  "{
   "name": "DRINX-MD",
   "version": "3.0.0",
-  "description": "A WhatsApp Bot Created By drinx",
+  "description": "A WhatsApp Bot Created By ESCADRON",
   "main": "index.js",
   "scripts": {
-    "start": "pm2 start index.js --deep-monitoring --attach --name DRINX-MD",
+    "start": "pm2 start index.js --deep-monitoring --attach --name ESCA-MD",
     "stop": "pm2 stop DRINX-MD",
-    "restart": "pm2 restart DRINX-MD"
-  },
+    "restart": "pm2 restart DRINX-MD"  },
   "dependencies": {
     "@whiskeysockets/baileys": "npm:@fizzxydev/baileys-pro@8.5.12",
     "@adiwajshing/keyed-db": "^0.2.4",
